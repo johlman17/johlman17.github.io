@@ -1,0 +1,44 @@
+button {
+    color:cadetblue;
+    background:navy;
+    border: 2px solid black
+}
+
+button:hover {
+    color: navy;
+    background: cadetblue;
+    border: 2px solid black
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+}
+
+li {
+    padding: 0 30px;
+}
+#b{
+    color:red;
+}
+
+.a {
+    color:blue;
+}
+#c {
+    color: maroon;
+}
+
+#main-content {
+    width: 40%;
+    margin:auto;
+    background-color: darkgoldenrod;
+    padding: 15px;
+}
+
+#goldy {
+    background-image: url("images/goldy.jpg");
+}
+    

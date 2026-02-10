@@ -1,15 +1,66 @@
+/* Structure */
+body {
+    background-image: url("images/cool\ black\ background.jpg"); 
+}
+
+/* Images */
+img {
+    border-style: solid;
+    border-color: black;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+}
+td, th {
+    border-style: dashed;
+    border-color:white;
+    color: cyan;
+    padding:5px;
+}
+
+th {
+    background:cyan;
+    color:navy;
+}
+
+ul {
+    /*border-style: dashed;
+    border-color:white;*/
+    color: cyan;
+}
+
+/* Typrography */
 h1 {
     color:lightcyan;
+}
+
+h2 {
+    color:lightcyan
 }
 h4 {
     color: cyan;
 }
+
 p {
     color: blue;
 }
+
 h3 {
     color:lightblue;
 }
-body {
-    background-color: black;
+
+/* links */
+
+a:hover {
+    background-color: pink;
+    color: blueviolet;
+    border-style: outset;
+    
+}
+a{
+    background-color: white;
+    border-color: cyan;
+    border-style:inset;
 }
