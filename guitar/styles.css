@@ -1,0 +1,50 @@
+#main-content {
+    width:40%;
+    margin:auto;
+    background-color: lightskyblue;
+    padding: 3%;
+}
+
+
+.normal {
+    width: 30%;
+    padding: 5px;
+    background-color: lightskyblue;
+}
+.normalheadingbg {
+     width: 20%;
+    padding: 45%px;
+    background-color: rgb(37, 126, 161);  
+}
+
+#guitarbg {
+    width:20%;
+    padding: 10px;
+    background-color: lightskyblue;
+}
+
+table {
+    background-color: lightskyblue;
+    color: navy;
+    border: solid lightblue;
+    border-collapse: collapse;
+}
+
+td {
+    color:mediumblue;
+    border-style: dashed;
+    border-color: lightblue;
+}
+.jimmy {
+    background-color: rgb(37, 126, 161);
+    width:20%;
+}
+
+body{
+    background-image: url(images/music\ bg.jpg) ;
+}
+
+img {
+  width: 100%;
+  border: 3px solid blue;
+}
