@@ -33,7 +33,7 @@ table {
 td {
     color:mediumblue;
     border-style: dashed;
-    border-color: lightblue;
+    border-color: lightbluex;
 }
 .jimmy {
     background-color: rgb(37, 126, 161);
@@ -47,4 +47,9 @@ body{
 img {
   width: 100%;
   border: 3px solid blue;
+}
+
+#coolvideo {
+    width: 100%;
+    height: 400px
 }
