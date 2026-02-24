@@ -8,13 +8,16 @@
 
 .normal {
     width: 30%;
-    padding: 5px;
+    padding: 50px;
     background-color: lightskyblue;
+    border-radius: 10px;
 }
 .normalheadingbg {
      width: 20%;
-    padding: 45%px;
+    padding: 45px;
     background-color: rgb(37, 126, 161);  
+    border-radius: 10px;
+
 }
 
 #guitarbg {
@@ -38,6 +41,8 @@ td {
 .jimmy {
     background-color: rgb(37, 126, 161);
     width:20%;
+    border-radius: 10px;
+
 }
 
 body{

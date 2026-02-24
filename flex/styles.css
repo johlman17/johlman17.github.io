@@ -1,0 +1,50 @@
+#div1 {
+    background: lavender;
+    margin: 15px;
+    text-align:center;
+    flex:1;
+}
+#div2 {
+    background: lavender;
+    margin: 15px;
+    text-align:center;
+    flex:1;
+}
+
+#div3 {
+    background:red;
+    margin: 15px;
+    text-align: center;
+    flex: 3
+}
+#div4 {
+    background:red;
+    margin: 15px;
+    text-align: center;
+    flex: 1
+}
+
+#div5 {
+    background: lightblue;
+    margin:15px;
+    text-align: center;
+    flex:2
+
+}
+#div6 {
+    background: lightblue;
+    margin:15px;
+    text-align: center;
+    flex:1
+
+}
+#div7 {
+    background: lightblue;
+    margin:15px;
+    text-align: center;
+    flex:2
+
+}
+.container {
+    display:flex;
+}
