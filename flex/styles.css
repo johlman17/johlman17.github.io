@@ -1,37 +1,164 @@
-section {
-    background:white;
-    color: darkslateblue;
-    border: 5px solid lightpink;
-    padding:15p;
-    margin:5px;
+.sidebar {
+ flex:1;
+ background-color: lightblue;
+
 }
 
+.column {
+    flex:9;
+}
+
+
+    #sec1 {
+        background-color: pink;
+        margin: 15px;
+        text-align:center;
+    }
+
+    #sec2 {
+        background-color: pink;
+        margin: 15px;
+        text-align:center;
+    }
+
+       #sec3 {
+        background-color: blue;
+        margin: 15px;
+        text-align:center;
+    }
+
+           #sec4 {
+        background-color: blue;
+        margin: 15px;
+        text-align:center;
+    }
+            #sec5 {
+        background-color: orangered;
+        margin: 15px;
+        text-align:center;
+    }
+
+           #sec6 {
+        background-color: orangered;
+        margin: 15px;
+        text-align:center;
+    }
+
+           #sec7 {
+        background-color: orangered;
+        margin: 15px;
+        text-align:center;
+    }
 
 
 
 /*use these styles on large screens  eg laptop or desktop*/
 @media screen and (min-width: 768px) {
-    body {
-        background-image: url(images/horizonbackground.jpg);
+
+    #sec8 {
+        height:300px;
+        text-align:center;
+        margin:10px;
+        background-color: lightblue;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px;      
     }
+
+    @keyframes circlebouncing {
+  0% {background-color: red; bottom:0px; top:0px;}
+  25% {background-color: orange; bottom: 50px;top: 0px;}
+  50% {background-color: yellow; bottom:0px;top: 50px;}
+  75%{background-color: green; bottom:50px ;top: 0px}
+    100% {background-color: blue; bottom:0px;top:50px;}
+
+
+}
+}
+
+    .circle {
+        border-radius: 95%;
+        background-color:red;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        animation-name: circlebouncing ;
+        animation-duration: 2s;
+    }
+
+    .circle2 {
+        margin: auto;
+        border-radius: 90%;
+        background-color:navy;
+        width: 10px;
+        height: 10px;
+
+    }
+
+    
+
+
+    #sec9 {
+        height:300px;
+        text-align:center;
+        margin:10px;
+
+        background-color: lightblue;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px;        
+    }
+
+
+    #sec10 {
+        height:300px;
+        text-align:center;
+        margin:10px;
+        background-color: lightblue;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px;
+    }
+
+    #centerdiv {
+        text-align: center;
+        margin:auto;
+        width:60%;
+        border-radius: 10px;
+        box-shadow: 2px;
+    }
+
+
+        
+
+    .one {
+        flex:1; 
+    }
+
+        .four {
+        flex:1; 
+    }
+
+    .two {
+        flex:2;
+    }
+
+    .three {
+        flex:3;
+    }
+
+    .four {
+        flex:4;
+    }
+
+    .nine {
+        flex:9;
+    }
+
+
 
     .columns{
         display:flex;
     }
+   
 
-    .one {
-        flex:1;
-    }
-    .two{
-        flex:2;
-    }
-    .three {
-        flex:3;
-    }
-    .four{
-        flex:4;
-    }
-}
    
 
 

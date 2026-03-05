@@ -1,0 +1,48 @@
+/*structure*/
+div {
+    width:75%;
+    margin:auto;
+    text-align:center;
+}
+
+/*structure*/
+
+
+.li{
+    background-color: tan;
+    padding: 2px;
+    margin:2px;
+    border-style:outset;
+    width: 5%;
+    
+}
+.li:hover{
+    background-color: lightgoldenrodyellow;
+    border-style:inset;
+}
+
+nav ul {
+    padding-left:0;
+
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+/*larger screens*/
+@media screen and (min-width:768px) {
+    .columns{
+        display: flex;
+
+    }
+    .one{
+        flex:1;
+    }
+}
