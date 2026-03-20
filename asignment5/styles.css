@@ -1,0 +1,83 @@
+header {
+    width :75%;
+    margin:auto;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.li {
+    background-color: navy;
+    padding: 2px;
+    margin:2px;
+    border-style: outset;
+}
+
+.li:hover {
+    background-color: lightskyblue;
+    border-style: inset;
+}
+
+nav ul {
+    padding-left:0;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    display:block;
+    padding:10px;
+    color: lightcyan;
+}
+
+.item {
+    padding: 5px;
+
+}
+#1600x400area {
+    width: 100%;
+}
+
+.art_title {
+    background-color: navy;
+    color:lightcyan;
+    padding:10px;
+    margin-top:-4px;
+    
+}
+
+button {
+    width:100%;
+    display:block;
+}
+
+#main {
+    text-align: center;
+    background-color: cadetblue;
+}
+
+footer {
+    background-color: navy;
+    color:lightcyan;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (min-width:768px){
+
+    .columns{
+        display: flex;
+    }
+    .one{
+        flex:1;
+    }
+    
+}
