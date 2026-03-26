@@ -73,6 +73,7 @@ img {
     border-style: solid;
     border-color: darkcyan;
     margin:5px; 
+
 }
 
 .para {
@@ -108,9 +109,6 @@ footer {
     
 }
 
-#contacts {
-    height: 375px;
-}
 
 
 
@@ -120,4 +118,5 @@ html {
 
 p {
     text-align: center;
+    
 }
